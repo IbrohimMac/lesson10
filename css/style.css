@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.nav {
+  fill: #fff;
+  width: 1366px;
+  height: 56px;
+  flex-shrink: 0;
+
+  margin-top: 8px;
+  display: flex;
+}
+.mini {
+  display: flex;
+  margin-top: 19px;
+  margin-left: 500px;
+  gap: 50px;
+}
+.mini2 {
+  display: flex;
+  margin-top: 19px;
+}
+.inp {
+  width: 60px;
+  margin-left: 40px;
+}
+.inp2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.big {
+  border-radius: 10px;
+  background: var(--White, #fff);
+  box-shadow: 0px 4px 56px 0px rgba(0, 0, 0, 0.04),
+    0px 12px 16px 0px rgba(0, 0, 0, 0.04);
+  width: 496px;
+  height: 849px;
+  flex-shrink: 0;
+  margin-top: 24px;
+  margin-left: 350px;
+  text-align: center;
+}
+.i1 {
+  margin-top: 40px;
+}
+.h1 {
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Segoe UI;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.mini3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 14px;
+}
+.p1 {
+  color: #444150;
+  font-family: ?????;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.a1 {
+  color: var(--01-bab-3, #01bab3);
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+.big1 {
+  display: flex;
+  margin-top: 56px;
+  margin-left: 40px;
+}
+.p2 {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.p3 {
+  color: #333;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin-left: 133px;
+}
+.lab {
+  display: flex;
+}
+.form1 {
+  width: 200px;
+  height: 48px;
+  flex-shrink: 0;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.form2 {
+  margin-top: 8px;
+  margin-left: 45px;
+}
+.p4 {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin-left: -340px;
+}
+
+.form3 {
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  margin-left: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.p5 {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  margin-left: -360px;
+  margin-top: 38px;
+}
+.Female {
+  width: 200px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 2px solid var(--01-bab-3, #01bab3);
+  background: #fff;
+  margin-left: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Male {
+  border-radius: 4px;
+  border: 2px solid var(--01-bab-3, #01bab3);
+  background: #fff;
+  width: 200px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gender {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
+.p6 {
+  color: #444150;
+  font-family: Segoe UI;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin-top: 24px;
+}
+.d1 {
+  margin-left: -380px;
+}
+.form4 {
+  margin-left: 415px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p7 {
+  margin-top: 24px;
+  margin-left: -380px;
+}
+
+.form5 {
+  margin-left: 37px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.d3 {
+  width: 416px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--01-bab-3, #01bab3);
+  margin-left: 38px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a2 {
+  text-decoration: none;
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.p8 {
+  color: rgba(0, 0, 0, 0.65);
+  text-align: center;
+  font-family: ?????;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+  margin-top: 64px;
+}
+.p9 {
+  margin-left: -380px;
+}
+.form6 {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  width: 414.535px;
+  height: 45.277px;
+  flex-shrink: 0;
+}
+.p10 {
+  margin-top: 22px;
+  margin-left: -380px;
+}
+.form7 {
+  margin-top: 8px;
+  margin-left: -285px;
+}
+.p11 {
+  margin-left: -370px;
+  margin-top: 22px;
+}
+.d6 {
+  margin-left: -285px;
+  margin-top: 9px;
+}
+.p12 {
+  margin-left: 100px;
+  margin-top: -45px;
+}
+.d8 {
+  margin-top: 6px;
+  margin-left: 205px;
+}
+.d9 {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 32px;
+  gap: 4px;
+}
+.password-field {
+  position: relative;
+  display: inline-block;
+  margin-left: -295px;
+  margin-top: 10px;
+}
+
+#togglePassword {
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 6px;
+}
+.p13 {
+  margin-left: -310px;
+  margin-top: 32px;
+}
+.form8 {
+  margin-top: 5px;
+  margin-left: -295px;
+}
+.regis {
+  width: 414.535px;
+  height: 51.183px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: var(--01-bab-3, #01bab3);
+  margin-top: 87px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h2 {
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 66.764px;
+  height: 25.591px;
+  flex-shrink: 0;
+  text-decoration: none;
+}
+.p14 {
+  margin-top: 23px;
+  color: #778699;
+  text-align: center;
+  font-family: ?????;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
